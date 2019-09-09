@@ -41,7 +41,7 @@ async def on_ready():
   
 	
 def is_owner(ctx):
-    return ctx.message.author.id == "326673425416454144, 326673425416454144"
+    return ctx.message.author.id == "326673425416454144"
 
 def is_dark(ctx):
     return ctx.message.author.id == "326673425416454144"
